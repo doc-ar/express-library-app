@@ -1,0 +1,351 @@
+{
+	"info": {
+		"_postman_id": "f7b6133a-70fc-42e8-8575-b57832d20542",
+		"name": "Library",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39139947"
+	},
+	"item": [
+		{
+			"name": "Add Book",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\": \"Ain't no sunshine\",\n    \"author\": \"676d6cbc4fe8d3a5753594e4\",\n    \"isbn\": \"121341246822487621523212\",\n    \"availableCopies\": 21\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/books",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"books"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Author",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Bill Withers\",\n    \"email\": \"bill.w@outlook.com\",\n    \"phoneNumber\": \"03154632410\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/authors",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"authors"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Borrower",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"AbdurRahman\",\n    \"borrowedBooks\": [],\n    \"membershipActive\": true,\n    \"membershipType\": \"standard\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/borrowers",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"borrowers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Books",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/books",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"books"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Authors",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/authors",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"authors"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Borrowers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/borrowers",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"borrowers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Book",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"title\": \"Harry Potter and the Deathly Hallows\",\n        \"author\": \"676d664cfa00c81873435602\",\n        \"isbn\": \"1213434124132487621873612\",\n        \"availableCopies\": 46,\n        \"borrowCount\": 0\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/books/676d6724fa00c8187343560c",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"books",
+						"676d6724fa00c8187343560c"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Author",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"name\": \"J.Kennedy. Rowling\",\n        \"email\": \"jk.rowling@gmail.com\",\n        \"phoneNumber\": \"03156893410\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/authors/676d664cfa00c81873435602",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"authors",
+						"676d664cfa00c81873435602"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Borrower",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Zohaib Azhar\",\n    \"borrowedBooks\": [],\n    \"membershipActive\": true,\n    \"membershipType\": \"premium\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/borrowers/676d6c904fe8d3a5753594e0",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"borrowers",
+						"676d6c904fe8d3a5753594e0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Book",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/books/676d6724fa00c8187343560c",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"books",
+						"676d6724fa00c8187343560c"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Author",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/authors/676d6669fa00c81873435605",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"authors",
+						"676d6669fa00c81873435605"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Borrower",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/borrowers/676d6c904fe8d3a5753594e0",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"borrowers",
+						"676d6c904fe8d3a5753594e0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Borrow Book",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"borrowerId\": \"676d6aae4fe8d3a5753594c0\",\n    \"bookId\": \"676d69594fe8d3a5753594bd\" \n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/books/borrow",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"books",
+						"borrow"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Return Book",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"borrowerId\": \"676d6aae4fe8d3a5753594c0\",\n    \"bookId\": \"676d69594fe8d3a5753594bd\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/books/return",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"books",
+						"return"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
