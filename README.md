@@ -30,50 +30,50 @@ This document outlines the objects, attributes, and endpoints for the Library Ma
 #### Books
 
 1. `POST` Add Book  
-   ![Add Book Screenshot](./Screenshots/addBook.png)
+![Add Book Screenshot](./Screenshots/addBook.png)
 
 2. `GET` Get Books  
-   ![Get Books Screenshot](./Screenshots/GetBooks.png)
+![Get Books Screenshot](./Screenshots/GetBooks.png)
 
 3. `PUT` Update Book  
-   ![Update Book Screenshot](./Screenshots/UpdateBook.png)
+![Update Book Screenshot](./Screenshots/UpdateBook.png)
 
 4. `DELETE` Delete Book  
-   ![Delete Book Screenshot](./Screenshots/DeleteBook.png)
+![Delete Book Screenshot](./Screenshots/DeleteBook.png)
 
 5. `POST` Borrow Book  
-   ![Borrow Book Screenshot](./Screenshots/BorrowBook.png)
+![Borrow Book Screenshot](./Screenshots/BorrowBook.png)
 
 6. `POST` Return Book  
-   ![Return Book Screenshot](./Screenshots/ReturnBook.png)
+![Return Book Screenshot](./Screenshots/ReturnBook.png)
 
 #### Authors
 
 7. `POST` Add Author  
-   ![Add Author Screenshot](./Screenshots/AddAuthor.png)
+![Add Author Screenshot](./Screenshots/AddAuthor.png)
 
 8. `GET` Get Authors  
-   ![Get Authors Screenshot](./Screenshots/GetAuthors.png)
+![Get Authors Screenshot](./Screenshots/GetAuthors.png)
 
 9. `PUT` Update Author  
-   ![Update Author Screenshot](./Screenshots/UpdateAuthors.png)
+![Update Author Screenshot](./Screenshots/UpdateAuthors.png)
 
 10. `DELETE` Delete Author  
-    ![Delete Author Screenshot](./Screenshots/DeleteAuthor.png)
+![Delete Author Screenshot](./Screenshots/DeleteAuthor.png)
 
 #### Borrowers
 
 11. `POST` Add Borrower  
-    ![Add Borrower Screenshot](./Screenshots/AddBorrower.png)
+![Add Borrower Screenshot](./Screenshots/AddBorrower.png)
 
 12. `GET` Get Borrowers  
-    ![Get Borrowers Screenshot](./Screenshots/GetBorrowers.png)
+![Get Borrowers Screenshot](./Screenshots/GetBorrowers.png)
 
 13. `PUT` Update Borrower  
-    ![Update Borrower Screenshot](./Screenshots/UpdateBorrower.png)
+![Update Borrower Screenshot](./Screenshots/UpdateBorrower.png)
 
 14. `DELETE` Delete Borrower  
-    ![Delete Borrower Screenshot](./Screenshots/DeleteBorrower.png)
+![Delete Borrower Screenshot](./Screenshots/DeleteBorrower.png)
 
 ### Notes
 
